@@ -1,0 +1,76 @@
+body {
+	background-color:lightgreen;
+	font-family:arial;
+}
+
+.background {
+	text-align:center; 	
+	 
+}
+.background.one {
+	display:block;
+	background-image:radial-gradient(yellow);
+}
+
+.background.two {
+	 display:block;
+	 background-image:radial-gradient(purple, lime, white); 
+}
+
+.background.three {
+
+	
+}
+
+.background.four {
+	
+}
+
+.middle {
+	color:white;
+}
+
+.middle.one {
+	transform:skew(30deg);
+	text-align:left;
+}
+
+.middle.two {
+	transform:skewY(20deg);
+	text-align:right; 
+}
+
+.middle.three {
+	transform:rotate(180deg);
+	text-align:left;
+}
+
+.middle.four {
+	
+}
+
+.text {
+	font-size:50px;
+}
+
+.text.one {
+	font-size:30px;
+}
+
+.text.two {
+	font-size:60px;
+}
+
+.text.three {
+	font-size:200px;
+	
+}
+
+.text.four {
+	font-size:300px;
+	
+}
+
+
+
+

@@ -1,0 +1,525 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	background-color:black; 
+}
+
+a {
+	color:lightblue;
+	text-align: center; 
+	padding-left:50px;
+
+}
+
+* {
+	outline:;
+}
+.container {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.item {
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+.item img {
+	width:100%;
+
+}
+
+.w1of1 {
+	width:100%;
+}
+
+.w1of2 {
+	width:50%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.w1of4 {
+	width:25%;
+}
+
+.w2of4 {
+	width:50%;
+}
+
+.w3of4 {
+	width:75%;
+}
+
+.w4of4 {
+	width:100%;
+}
+
+.w1of3 {
+	width:33.33%; 
+}
+
+.w2of3 {
+	width:100%;
+}
+
+.w3of3 {
+	width:100%;
+}
+
+/*top*/
+
+.top {
+	background-color:lightgrey;
+	font-family: courier;
+	color:white;
+	text-align: center; 
+	display:flex;
+	flex-wrap:wrap;
+  width: 200px;
+  height:50px;
+  background-color: black;
+  /*   add your animation name and settings here */
+  animation-name:spinUG;
+  animation-duration:8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes spinUG {
+  
+  from {
+    width:50px;
+  }
+  
+  to {
+    width:2000px;
+  }
+}
+
+/*Title1*/
+
+.title1 {
+	background-color:black;
+	font-family: Arial;
+	font-style:italic;
+	text-transform:capitalize;  
+	color:white;
+	font-size:100px;
+	text-align:center; 
+	text-shadow:5px 5px 5px grey;  
+	padding-top:25px; 
+
+	 
+}
+
+.title1 {
+	background-color:black;
+	font-family: Arial;
+	font-style:italic;
+	text-transform:capitalize;  
+	color:white;
+	font-size:100px;
+	text-align:center; 
+	text-shadow:5px 5px 5px grey;  
+	padding-top:25px; 
+	text-align: center;
+}
+
+/*popstars*/
+
+.popstars { 
+	background-color:black; 
+	align-items:center;
+	display:flex;
+	flex-wrap:wrap; 
+}
+
+
+/*Title2*/
+
+.title2 {
+	background-color:black; 
+	height:100px;
+	display:flex;
+	flex-wrap:wrap;  
+	padding-bottom:100px; 
+}
+
+/*favourite*/
+ 
+.favourite {
+	background-color:black; 
+	font-size:50px;
+	color:white;
+	text-align:center;  
+	display:flex;
+	flex-wrap:wrap; 
+	padding-left:100px; 
+}
+
+/*Marylin Monroe*/
+
+.marylinV video {
+	padding-left:300px; 
+	padding-top:500px;
+	padding-bottom:20px; 
+	color:white;
+	text-align:center; 
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+/*start pink*/
+
+.background {
+
+
+}
+
+.background.one {
+	background-color:lightpink;
+}
+
+.background.two {
+	background-color:lightpink;
+}
+
+.background.three {
+	background-color:lightpink;
+
+}
+
+.background.four {
+	background-color:lightpink;
+}
+
+.background.five {
+	background-color:lightpink;
+}
+
+.middle {
+
+}
+.middle.one {
+
+}
+
+.middle.two {
+
+}
+
+.middle.three {
+
+}
+
+.middle.four {
+}
+
+.middle.five {
+}
+
+.text {
+	text-align:center; 
+}
+
+.text.one {
+	color:lightpink;
+	text-shadow:5px 5px 5px hotpink; 
+	font-size: 50px;
+}
+
+.text.two {
+	color:hotpink;
+	font-size:100px;
+	text-shadow:5px 5px 5px hotpink; 
+
+}
+
+.text.three {
+	color:lightpink;
+	text-shadow:5px 5px 5px hotpink; 
+	font-size:50px; 
+}
+
+.text.four {
+	color:hotpink;
+	text-shadow:5px 5px 5px hotpink; 
+	font-size:100px;
+}
+
+.text.five {
+	color:lightpink;
+	text-shadow:5px 5px 5px hotpink; 
+	font-size:50px;
+}
+
+/*end pink*/
+
+/*start talking*/
+
+.help:hover {
+	background-color:lightpink;
+	font-family: times;
+	font-size:80px;
+	text-align:center; 
+	padding-bottom:50px; 
+}
+
+/*michael*/
+
+.michael video {
+	background-color:black;
+	padding-left:300px; 
+	padding-bottom:20px; 
+	display:flex;
+	flex-wrap:wrap;
+}
+
+/*below lightblue*/
+
+.background2 {
+	background-color: lightblue;
+
+}
+
+.background2.one {
+	background-color: lightblue;
+}
+
+.background2.two {
+	background-color: lightblue;
+
+}
+
+.background2.three {
+	background-color: lightblue;
+
+}
+
+.background2.four {
+	background-color: lightblue;
+}
+
+.background2.five {
+	background-color: lightblue;
+}
+
+.middle2 {
+
+}
+.middle2.one {
+}
+
+.middle2.two {
+}
+
+.middle2.three {
+}
+
+.middle2.four {
+}
+
+.middle2.five {
+
+}
+
+.text2 {
+	text-align: center;
+}
+
+.text2.one {
+	color: lightblue;
+	text-shadow: 5px 5px 5px darkblue;
+	font-size: 100px;
+}
+
+.text2.two {
+	color: darkblue;
+	text-shadow: 5px 5px 5px darkblue;
+	font-size: 50px;
+}
+
+.text2.three {
+	color:lightblue;
+	text-shadow: 5px 5px 5px darkblue;
+	font-size: 100px;
+}
+
+.text2.four {
+	color:lightblue;
+	text-shadow: 5px 5px 5px darkblue;
+	font-size: 50px;
+}
+
+.text2.five {
+	color:lightblue;
+	text-shadow: 5px 5px 5px darkblue;
+	font-size: 100px;
+}
+/*lightblue*/
+
+.lightblue {
+	background-color:black;
+	font-family: times;
+	font-size:80px;
+	text-align:center;
+}
+
+.lightblue img {
+	padding-top:150px; 
+	width:200px;
+	height:600px;
+}
+.lightblue:hover {
+	background-color:lightblue;
+	font-family: times;
+	font-size:80px;
+	text-align:center;
+}
+
+/*robin*/
+.robin video {
+	padding-left:300px; 
+	padding-bottom:20px; 
+	color:white;
+	text-align:center; 
+	display:flex;
+	flex-wrap:wrap;
+}
+/*robin talking*/
+
+.background3 {
+	background-color: lightgreen;
+
+}
+
+.background3.one {
+	background-color: lightgreen;
+}
+
+.background3.two {
+	background-color: lightgreen;
+
+}
+
+.background3.three {
+	background-color: lightgreen;
+
+}
+
+.background3.four {
+	background-color: lightgreen;
+}
+
+.background3.five {
+	background-color: lightgreen;
+}
+
+.middle3 {
+
+}
+.middle3.one {
+	color: white;
+}
+
+.middle3.two {
+	color: darkblue;
+}
+
+.middle3.three {
+	color: lightblue
+}
+
+.middle3.four {
+	color: black;
+}
+
+.middle3.five {
+	color: lightblue
+}
+
+.text3 {
+	text-align: center;
+}
+
+.text3.one {
+	color: darkgreen;
+	text-shadow: 5px 5px 5px lightgreen;
+	font-size: 100px;
+}
+
+.text3.two {
+	color: lightgreen;
+	text-shadow: 5px 5px 5px darkgreen;
+	font-size: 50px;
+}
+
+.text3.three {
+	color:lightgreen;
+	text-shadow: 5px 5px 5px darkgreen;
+	font-size: 100px;
+}
+
+.text3.four {
+	color:lightgreen;
+	text-shadow: 5px 5px 5px darkgreen;
+	font-size: 50px;
+}
+
+.text3.five {
+	color:lightgreen;
+	text-shadow: 5px 5px 5px darkgreen;
+	font-size: 100px;
+}
+
+/*ghost*/
+
+.ghost:hover {
+    background-color: lightgreen;
+  	font-family: times;
+	font-size:80px;
+	text-align:center; 
+	padding-top: 50px;
+}
+
+/*green*/
+
+.green {
+	background-color: black;
+	font-family: courier;
+	color:white;   
+	background-color:lightgrey;
+	font-family: courier;
+	color:white;
+	text-align: center; 
+	display:flex;
+	flex-wrap:wrap;
+  width: 200px;
+  height:50px;
+  background-color: black;
+  /*   add your animation name and settings here */
+  animation-name:spinUG;
+  animation-duration:8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes spinUG {
+  
+  from {
+    width:50px;
+  }
+  
+  to {
+    width:2000px;
+  }
+
+
+

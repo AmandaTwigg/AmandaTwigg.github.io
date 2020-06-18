@@ -1,0 +1,75 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: lightgrey;
+}
+
+a {
+	color:red;
+}
+
+.twiggy {
+
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+}
+
+.twiggy img {
+	width:100%;
+	display: block; 
+}
+
+.links {
+	position:fixed;
+	top:50px;
+	left:20px;
+	font-family: helvetica bold;
+	text-transform: uppercase;
+	font-size:100px;
+	color:black;
+	text-shadow:0px 0px 20px yellow;
+
+}
+
+.links	a {
+	color: black;
+	text-shadow:0px 0px 20px lightblue;
+	display:block;
+	font-family: helvetica bold;
+	text-decoration-line: none;
+	font-size:50px;
+	padding-left:20px;
+
+
+}
+
+.links a:hover {
+	color:white;
+}
+
+.name {
+	font-size:250px;
+	text-align:center;
+	text-shadow:0px 0px 10px white;
+	color: lightgrey;
+}
+
+.copy {
+	font-size:14px;
+	text-align: center;
+	text-transform:uppercase;
+	background-color: black;
+	color:white;
+	padding:20;
+}
+
+
+.icon img {
+	width:200px;
+	height:200px;
+	position:fixed;
+	top:500px;
+	right:400px;
+	border:2px solid orange;
+}

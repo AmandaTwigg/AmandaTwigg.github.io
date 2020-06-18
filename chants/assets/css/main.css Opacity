@@ -1,0 +1,70 @@
+body {
+	background-color:lightblue;
+	font-family:arial;
+}
+
+.background {
+	text-align:center; 	
+	 
+}
+.background.one {
+	opacity: 1;
+}
+
+.background.two {
+	 opacity:0.5;
+}
+
+.background.three {
+	opacity:1;
+}
+
+.background.four {
+	opacity:2;
+}
+
+.middle {
+	
+}
+
+.middle.one {
+	color:yellow;
+}
+
+.middle.two {
+	color:red;
+}
+
+.middle.three {
+	color:lime;
+}
+
+.middle.four {
+	color:lightblue;
+}
+
+.text {
+	font-size:50px;
+}
+
+.text.one {
+	font-size:30px;
+}
+
+.text.two {
+	font-size:60px;
+}
+
+.text.three {
+	font-size:200px;
+	line-height:190px; 
+}
+
+.text.four {
+	font-size:300px;
+	line-height:220;
+}
+
+
+
+

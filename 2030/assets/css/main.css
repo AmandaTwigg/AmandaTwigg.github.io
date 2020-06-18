@@ -1,0 +1,170 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+  background-color: black;
+}
+
+a {
+	color:black;
+}
+
+/*background*/
+
+.eye {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+}
+
+.eye img {
+  object-fit: cover;
+}
+
+.title {  
+  font-size: 200px;
+  padding-left: 20px;
+  color:white; 
+}
+
+.content {
+  width: 700px;
+  margin: auto;
+  padding-top: 450px;
+  padding-left:100px;
+  padding-right:100px;
+  font-size: 16px;
+  background-color: black;
+  color:white;
+  position:center;
+}
+
+/*vision*/
+
+.title2 {
+  padding-left:50px;
+  font-size: 100px;
+  color:white; 
+}
+
+.content2 {
+  width: 700px;
+  margin: auto;
+  padding-top: 100px;
+  padding-left:100px;
+  padding-right:100px;
+  font-size: 16px;
+  background-color: black;
+  color:white;
+  position:center;
+}
+
+.vision1 {
+position: center;
+padding-left:500px;
+  
+}
+
+.vision2 {
+position:center;
+padding-left:500px;
+
+}
+
+/*focal capacity*/
+.title3 {
+  padding-left:20px;
+  font-size: 100px;
+  color:white; 
+  font-style: uppercase;
+}
+
+.content3 {
+  width: 700px;
+  margin: auto;
+  padding-top: 100px;
+  padding-left:100px;
+  padding-right:100px;
+  font-size: 16px;
+  background-color: black;
+  color:white;
+  position:center;
+}
+
+.FC1 {
+position: center;
+padding-left:500px;
+  
+}
+
+.FC2 {
+position:center;
+padding-left:300px;
+
+}
+
+/*focal capactiy bee*/
+.title4 {
+  padding-left:40px;
+  font-size: 100px;
+  color:white; 
+}
+
+.FC3 {
+position: center;
+padding-left:500px;
+  
+}
+
+.FC4 {
+position:center;
+padding-left:400px;
+
+}
+
+.FC5 {
+position: center;
+padding-left:500px; 
+}
+
+.FC6 {
+position:center;
+padding-left:300px;
+}
+/*focal capacity writing*/
+
+.title5 {
+  padding-left:600px;
+  padding-right:800px;
+  font-size: 50px;
+  color:white; 
+}
+
+.FC7 {
+position: center;
+padding-left:500px;
+}
+
+.FC8 {
+position:center;
+padding-left:300px;
+}
+
+.FC9 {
+position: center;
+padding-left:200px; 
+}
+
+.FC10 {
+position:center;
+padding-left:300px;
+}
+/*start background*/
+
+
+.toggle {
+	padding-left:600px;
+	padding-right: 500px;
+	color:darkgreen;
+	display: none;
+}

@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: cpurier;
 	font-size: 20px;
 	background-color:black; 
 }
@@ -104,13 +104,13 @@ a {
 
 .title1 {
 	background-color:black;
-	font-family: Arial;
+	font-family: Courier;
 	font-style:italic;
 	text-transform:capitalize;  
 	color:white;
 	font-size:100px;
 	text-align:center; 
-	text-shadow:5px 5px 5px grey;  
+	text-shadow:100px 60px 100px grey;  
 	padding-top:25px; 
 
 	 
@@ -118,7 +118,7 @@ a {
 
 .title1 {
 	background-color:black;
-	font-family: Arial;
+	font-family: Courier;
 	font-style:italic;
 	text-transform:capitalize;  
 	color:white;
@@ -153,12 +153,82 @@ a {
  
 .favourite {
 	background-color:black; 
+	font-family: courier;
 	font-size:50px;
 	color:white;
 	text-align:center;  
 	display:flex;
 	flex-wrap:wrap; 
-	padding-left:100px; 
+	padding-left:100px;
+	text-shadow:5px 5px 5px grey; 
+}
+
+/*slide in essay*/
+.menu {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: grey;
+}
+
+.close {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+}
+
+.close.show {
+  display: block;
+}
+
+.close:hover {
+  background-color: lightblue;
+}
+
+.essay {
+  width: 50%;
+  height: 100vh;
+  overflow: scroll;
+  font-family: courier;
+  position: fixed;
+  background-color: pink;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  margin-right: -50%;
+  transition: 1s;
+}
+
+.essay.slide {
+  margin-right: 0;
+  transition: 1s;
+}
+
+.essay h1 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 100px;
+}
+
+.essay p {
+  font-size: 24px;
+  padding: 24px;
 }
 
 /*Marylin Monroe*/
@@ -169,8 +239,7 @@ a {
 	padding-bottom:20px; 
 	color:white;
 	text-align:center; 
-	display:flex;
-	flex-wrap:wrap;
+	display:-webkit-flex;
 }
 
 
@@ -202,25 +271,25 @@ a {
 	background-color:lightpink;
 }
 
+
 .middle {
-
+	color:white;
 }
-.middle.one {
 
+.middle.one {
+	transform:skew(30deg);
 }
 
 .middle.two {
-
+	transform:skewY(20deg);
 }
 
 .middle.three {
-
+	transform:skewX(30deg);
 }
 
 .middle.four {
-}
-
-.middle.five {
+	
 }
 
 .text {
@@ -264,7 +333,7 @@ a {
 
 .help:hover {
 	background-color:lightpink;
-	font-family: times;
+	font-family: courier;
 	font-size:80px;
 	text-align:center; 
 	padding-bottom:50px; 
@@ -276,8 +345,7 @@ a {
 	background-color:black;
 	padding-left:300px; 
 	padding-bottom:20px; 
-	display:flex;
-	flex-wrap:wrap;
+	display:-webkit-flex;
 }
 
 /*below lightblue*/
@@ -310,22 +378,23 @@ a {
 }
 
 .middle2 {
-
+	color:white;
 }
+
 .middle2.one {
+	transform:skew(30deg);
 }
 
 .middle2.two {
+	transform:skewY(20deg);
 }
 
 .middle2.three {
+	transform:skewX(30deg);
 }
 
 .middle2.four {
-}
-
-.middle2.five {
-
+	
 }
 
 .text2 {
@@ -365,7 +434,7 @@ a {
 
 .lightblue {
 	background-color:black;
-	font-family: times;
+	font-family: courier;
 	font-size:80px;
 	text-align:center;
 }
@@ -377,7 +446,7 @@ a {
 }
 .lightblue:hover {
 	background-color:lightblue;
-	font-family: times;
+	font-family: courier;
 	font-size:80px;
 	text-align:center;
 }
@@ -388,8 +457,7 @@ a {
 	padding-bottom:20px; 
 	color:white;
 	text-align:center; 
-	display:flex;
-	flex-wrap:wrap;
+	display: -webkit-flex;
 }
 /*robin talking*/
 
@@ -423,24 +491,21 @@ a {
 .middle3 {
 
 }
+
 .middle3.one {
-	color: white;
+	transform:skew(30deg);
 }
 
 .middle3.two {
-	color: darkblue;
+	transform:skewY(20deg);
 }
 
 .middle3.three {
-	color: lightblue
+	transform:skewX(30deg);
 }
 
 .middle3.four {
-	color: black;
-}
-
-.middle3.five {
-	color: lightblue
+	
 }
 
 .text3 {
@@ -481,7 +546,7 @@ a {
 
 .ghost:hover {
     background-color: lightgreen;
-  	font-family: times;
+  	font-family: courier;
 	font-size:80px;
 	text-align:center; 
 	padding-top: 50px;

@@ -234,7 +234,8 @@ a {
 /*Marylin Monroe*/
 
 .marylinV video {
-	padding-left:300px; 
+	margin-top: 250px;
+	padding-left:450px; 
 	padding-top:500px;
 	padding-bottom:20px; 
 	color:white;
@@ -343,8 +344,9 @@ a {
 
 .michael video {
 	background-color:black;
-	padding-left:300px; 
-	padding-bottom:20px; 
+	padding-bottom:20px;
+	padding-left:500px;
+	padding-right:500px; 
 	display:-webkit-flex;
 }
 
@@ -453,7 +455,7 @@ a {
 
 /*robin*/
 .robin video {
-	padding-left:300px; 
+	padding-left:500px; 
 	padding-bottom:20px; 
 	color:white;
 	text-align:center; 

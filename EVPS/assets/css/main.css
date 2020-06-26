@@ -1,5 +1,5 @@
 body {
-	font-family: cpurier;
+	font-family: courier;
 	font-size: 20px;
 	background-color:black; 
 }
@@ -159,7 +159,7 @@ a {
 	text-align:center;  
 	display:flex;
 	flex-wrap:wrap; 
-	padding-left:100px;
+	padding-left:200px;
 	text-shadow:5px 5px 5px grey; 
 }
 
